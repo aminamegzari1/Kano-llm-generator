@@ -1,0 +1,564 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #dceeff 0%, #e6f2ff 30%, #cce0ff 60%, #b3d1ff 100%);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+.upload-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 20px;
+}
+/* Wrapper centré */
+.upload-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+/* Carte blanche avec ombre */
+.upload-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Titre et sous-titre */
+.upload-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.upload-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Champs et boutons */
+.upload-form {
+  margin-bottom: 30px;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #374151;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #f9fafb;
+  margin-bottom: 20px;
+}
+
+.upload-form button {
+  width: 100%;
+  background: linear-gradient(to right,#0f62fe, #0f62fe);
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.upload-form button:hover {
+  background: #6d28d9;
+}
+
+/* Diagramme + boutons */
+.diagram-wrapper {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.diagram-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.diagram-title {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.diagram-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.download-button,
+.email-button {
+  display: inline-block;
+  margin: 8px;
+  background-color: #0f62fe;
+  color: white;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.download-button:hover,
+.email-button:hover {
+  background-color: #0043ce;
+}
+/* Global Wrapper */
+.diagram-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* White Card */
+.diagram-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 90%;
+  max-width: 700px;
+}
+
+/* Title */
+.diagram-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Image */
+.diagram-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+/* Hero Section */
+
+
+/* Hero section with background image and left-aligned text */
+.hero-banner {
+  background: url('/your-image.png') no-repeat right center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  position: relative;
+  color: #fff;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* Dark overlay for contrast */
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: #007bff;
+  border-color: #fff;
+}
+
+.hero {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+.hero-section-centered {
+  position: relative;
+  height: 100vh;
+  background-image: url('/dc5b4073-b631-42a8-864b-576bd5fcc437.png'); /* ton image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5); /* effet foncé pour lisibilité */
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero-text-centered h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero-text-centered p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #007bff;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+.cta-button:hover {
+  background-color: #e6e6e6;
+}
+
+/* Upload Section */
+/* Section principale */
+.upload-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.upload-section h2 {
+  font-size: 2.2rem;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+/* Formulaires dans des cartes */
+.upload-form {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #374151;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.upload-form button {
+  background-color: #0f62fe;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.upload-form button:hover {
+  background-color: #0043ce;
+}
+
+/* Message serveur */
+.server-message {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #1d4ed8;
+}
+
+/* Résultat : diagramme */
+.diagram-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.diagram-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.diagram-title {
+  font-size: 1.6rem;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.diagram-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.download-button,
+.email-button {
+  display: inline-block;
+  margin: 8px 10px;
+  background-color: #0f62fe;
+  color: white;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.download-button:hover,
+.email-button:hover {
+  background-color: #0043ce;
+}
+
+/* Pied de page */
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 60px 30px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color:  #007cf0;
+}
+
+.reasons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.reason-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  flex: 1;
+  min-width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.reason-card:hover {
+  transform: translateY(-8px);
+
+}
+
+.reason-card h3 {
+  color: #007cf0;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.reason-card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+.hero-content-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero-content-with-image {
+    flex-direction: row;
+    gap: 50px;
+    text-align: left;
+  }
+
+  .hero-text {
+    flex: 1;
+    color: white;
+    padding-right: 40px;
+    min-width: 280px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 280px;
+
+  }
+  .qualtrics-hero {
+    background: url('/your-image.png') no-repeat right center;
+    background-size: cover;
+    height: 100vh;
+    background-color: #f8fafc;
+  
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .qualtrics-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); /* Dark overlay for contrast */
+    z-index: 1;
+  }
+  .hero-content {
+    max-width: 700px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #0f62fe;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0043ce;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+}
+

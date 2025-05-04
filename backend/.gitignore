@@ -1,0 +1,14 @@
+# Ignorer les dépendances Node.js
+node_modules/
+build/
+
+# Ignorer les fichiers temporaires Python
+__pycache__/
+*.pyc
+.env
+
+# Ignorer les logs
+*.log
+
+# Ignorer les configurations locales
+.vscode/
